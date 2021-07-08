@@ -25,7 +25,7 @@ npm install
 npm run dev
 ```
 
-## Arquivos do Projeto
+## Dependências do Projeto
 
 A documentação da API pode ser acessada juntamente com uma versão de demonstração conforme tabela à baixo
 
@@ -33,6 +33,9 @@ A documentação da API pode ser acessada juntamente com uma versão de demonstr
 | ------ | ------ |
 | Projeto de Backend | https://github.com/rochajario/CIeT-dev-test-api |
 | Projeto de Frontend | https://github.com/rochajario/CIeT-dev-test-app |
+
+##Tela da Aplicação
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 ## Desenvolvedor
 
