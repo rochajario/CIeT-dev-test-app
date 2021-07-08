@@ -34,7 +34,7 @@ A documentação da API pode ser acessada juntamente com uma versão de demonstr
 | Projeto de Backend | https://github.com/rochajario/CIeT-dev-test-api |
 | Projeto de Frontend | https://github.com/rochajario/CIeT-dev-test-app |
 
-##Tela da Aplicação
+## Exemplo de Tela
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 ## Desenvolvedor
