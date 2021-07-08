@@ -25,7 +25,7 @@ npm install
 npm run dev
 ```
 
-## Documentação da API
+## Arquivos do Projeto
 
 A documentação da API pode ser acessada juntamente com uma versão de demonstração conforme tabela à baixo
 
