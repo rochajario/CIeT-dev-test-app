@@ -34,7 +34,8 @@ A documentação da API pode ser acessada juntamente com uma versão de demonstr
 | Projeto de Backend | https://github.com/rochajario/CIeT-dev-test-api |
 | Projeto de Frontend | https://github.com/rochajario/CIeT-dev-test-app |
 
-## Exemplo de Tela
+## Aplicação
+https://lista-de-tarefas-app.herokuapp.com/
 ![alt text](https://github.com/rochajario/CIeT-dev-test-app/blob/main/app.PNG?raw=true)
 
 ## Desenvolvedor
