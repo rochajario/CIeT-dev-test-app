@@ -102,36 +102,36 @@ export default {
   },
   methods:{
     atualizarLista(){
-      this.$http.get('https://lista-de-tarefas-api.herokuapp.com/api/ListarTarefas')
+      this.$http.get('lista-de-tarefas-api.herokuapp.com/api/ListarTarefas')
         .then(res => res.json())
         .then(tarefas => this.tarefas = tarefas, err => console.log(err));
     },
     novaTarefa(){
       if(this.inputTarefa != ""){
-        let endpoint = 'https://lista-de-tarefas-api.herokuapp.com/api/NovaTarefa/'+this.inputTarefa
+        let endpoint = 'lista-de-tarefas-api.herokuapp.com/api/NovaTarefa/'+this.inputTarefa
         this.realizaChamadaEExibeAlerta(endpoint);
       }
       this.atualizarLista();
     },
     deletaTarefa(id){
-      let endpoint = 'https://lista-de-tarefas-api.herokuapp.com/api/RemoverTarefa/'+id;
+      let endpoint = 'lista-de-tarefas-api.herokuapp.com/api/RemoverTarefa/'+id;
       this.realizaChamadaEExibeAlerta(endpoint);
       this.atualizarLista();
     },
     finalizarTarefa(id){
-      let endpoint = 'https://lista-de-tarefas-api.herokuapp.com/api/FinalizarTarefa/'+id;
+      let endpoint = 'lista-de-tarefas-api.herokuapp.com/api/FinalizarTarefa/'+id;
       this.realizaChamadaEExibeAlerta(endpoint);
       this.atualizarLista();
     },
     finalizarTarefaSilenciosamente(id){
-        this.$http.get('https://lista-de-tarefas-api.herokuapp.com/api/FinalizarTarefa/'+id)
+        this.$http.get('lista-de-tarefas-api.herokuapp.com/api/FinalizarTarefa/'+id)
         .then(res => res.json())
         .then(status => window.alert(status.message)
         .catch(console.log("Não foi possível realizar a tarefa solicitada. Id:"+id)));
     },
     editarTarefa(id){
       let descricao = window.prompt("Digite a Nova Descrição:");
-      let endpoint = 'https://lista-de-tarefas-api.herokuapp.com/api/EditarTarefa/'+id+'/'+descricao;
+      let endpoint = 'lista-de-tarefas-api.herokuapp.com/api/EditarTarefa/'+id+'/'+descricao;
       if(descricao!=null){
         this.realizaChamadaEExibeAlerta(endpoint);
       }
